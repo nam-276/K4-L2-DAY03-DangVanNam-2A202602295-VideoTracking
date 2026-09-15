@@ -1,0 +1,211 @@
+{
+  "clip": "clip_01",
+  "frames": 190,
+  "iou_threshold": 0.5,
+  "pred_file": "/content/Day3-Lab/annotations/clip_01/gt.txt",
+  "gt_file": "/content/Day3-Lab/gold/clip_01/gt.txt",
+  "pred_label": "nhãn của bạn",
+  "gt_label": "gold clip_01",
+  "metrics": {
+    "HOTA": 0.8138,
+    "DetA": 0.7891,
+    "AssA": 0.8436,
+    "LocA": 0.857,
+    "IDF1": 0.9705,
+    "IDTP": 560,
+    "IDFP": 21,
+    "IDFN": 13,
+    "MOTA": 0.9407,
+    "MOTP": 0.8391,
+    "IDSW": 0,
+    "FP": 21,
+    "FN": 13,
+    "GT_boxes": 573,
+    "PRED_boxes": 581
+  },
+  "gate": {
+    "checks": {
+      "IDF1": {
+        "value": 0.9705372616984402,
+        "required": 0.8,
+        "passed": true
+      },
+      "MOTA": {
+        "value": 0.9406631762652705,
+        "required": 0.75,
+        "passed": true
+      },
+      "MOTP": {
+        "value": 0.8391228009492476,
+        "required": 0.7,
+        "passed": true
+      }
+    },
+    "passed": true
+  },
+  "diagnostics": {
+    "missed_gt_tracks": [],
+    "fragmented_gt_tracks": [],
+    "partially_covered_gt_tracks": [],
+    "ghost_pred_tracks": [
+      {
+        "pred_track": 4,
+        "reason": "còn bbox sau khi track tham chiếu 4 đã rời khung",
+        "frames": [
+          149,
+          151
+        ],
+        "length": 3
+      }
+    ],
+    "id_switches": [],
+    "loose_boxes": [
+      {
+        "frame": 117,
+        "gt_track": 6,
+        "pred_track": 6,
+        "iou": 0.509
+      },
+      {
+        "frame": 119,
+        "gt_track": 6,
+        "pred_track": 6,
+        "iou": 0.514
+      },
+      {
+        "frame": 115,
+        "gt_track": 6,
+        "pred_track": 6,
+        "iou": 0.519
+      },
+      {
+        "frame": 122,
+        "gt_track": 6,
+        "pred_track": 6,
+        "iou": 0.519
+      },
+      {
+        "frame": 83,
+        "gt_track": 5,
+        "pred_track": 5,
+        "iou": 0.52
+      },
+      {
+        "frame": 107,
+        "gt_track": 6,
+        "pred_track": 6,
+        "iou": 0.52
+      },
+      {
+        "frame": 118,
+        "gt_track": 6,
+        "pred_track": 6,
+        "iou": 0.52
+      },
+      {
+        "frame": 111,
+        "gt_track": 6,
+        "pred_track": 6,
+        "iou": 0.537
+      },
+      {
+        "frame": 114,
+        "gt_track": 6,
+        "pred_track": 6,
+        "iou": 0.542
+      },
+      {
+        "frame": 112,
+        "gt_track": 6,
+        "pred_track": 6,
+        "iou": 0.544
+      },
+      {
+        "frame": 84,
+        "gt_track": 5,
+        "pred_track": 5,
+        "iou": 0.545
+      },
+      {
+        "frame": 91,
+        "gt_track": 5,
+        "pred_track": 5,
+        "iou": 0.549
+      },
+      {
+        "frame": 113,
+        "gt_track": 6,
+        "pred_track": 6,
+        "iou": 0.551
+      },
+      {
+        "frame": 92,
+        "gt_track": 5,
+        "pred_track": 5,
+        "iou": 0.556
+      },
+      {
+        "frame": 93,
+        "gt_track": 5,
+        "pred_track": 5,
+        "iou": 0.563
+      },
+      {
+        "frame": 85,
+        "gt_track": 5,
+        "pred_track": 5,
+        "iou": 0.564
+      },
+      {
+        "frame": 94,
+        "gt_track": 5,
+        "pred_track": 5,
+        "iou": 0.568
+      },
+      {
+        "frame": 110,
+        "gt_track": 6,
+        "pred_track": 6,
+        "iou": 0.569
+      },
+      {
+        "frame": 123,
+        "gt_track": 6,
+        "pred_track": 6,
+        "iou": 0.57
+      },
+      {
+        "frame": 95,
+        "gt_track": 5,
+        "pred_track": 5,
+        "iou": 0.571
+      },
+      {
+        "frame": 96,
+        "gt_track": 5,
+        "pred_track": 5,
+        "iou": 0.574
+      },
+      {
+        "frame": 86,
+        "gt_track": 5,
+        "pred_track": 5,
+        "iou": 0.58
+      },
+      {
+        "frame": 108,
+        "gt_track": 6,
+        "pred_track": 6,
+        "iou": 0.585
+      },
+      {
+        "frame": 97,
+        "gt_track": 5,
+        "pred_track": 5,
+        "iou": 0.6
+      }
+    ],
+    "n_gt_tracks": 8,
+    "n_pred_tracks": 8
+  }
+}
